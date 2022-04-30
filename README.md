@@ -20,7 +20,7 @@ To update to the dependencies to the latest version, add typescript support, and
 To create a new Serverless project
 
 ```bash
-git clone https://github.com/AnomalyInnovations/serverless-lerna-yarn-starter my-project
+git clone https://github.com/antoinewg/serverless-lerna-yarn-typescript-starter my-project
 ```
 
 Enter the new directory
@@ -80,7 +80,7 @@ The `packages/` and `services/` directories are Yarn Workspaces.
 
 ### Services
 
-The Serverless services are meant to be managed on their own. Each service is based on the [Serverless Typescript Starter](https://github.com/AnomalyInnovations/serverless-typescript-starter). It uses the [serverless-bundle](https://github.com/AnomalyInnovations/serverless-bundle) plugin (based on [Webpack](https://webpack.js.org)) to create optimized Lambda packages.
+The Serverless services are meant to be managed on their own. Each service is based on a customized version of the [Serverless Typescript Starter](https://github.com/AnomalyInnovations/serverless-typescript-starter). It uses the [serverless-bundle](https://github.com/AnomalyInnovations/serverless-bundle) plugin (based on [Webpack](https://webpack.js.org)) to create optimized Lambda packages.
 
 This is good for keeping your Lambda packages small. But it also ensures that you can have Yarn hoist all your NPM packages to the project root. Without Webpack, you'll need to disable hoisting since Serverless Framework does not package the dependencies of a service correctly on its own.
 
