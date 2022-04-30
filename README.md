@@ -9,6 +9,10 @@ A Serverless monorepo starter that uses [Lerna](https://lerna.js.org), [Yarn Wor
 - Uses [serverless-bundle](https://github.com/AnomalyInnovations/serverless-bundle) to generate optimized Lambda packages
 - Uses Yarn Workspaces to hoist packages to the root `node_modules/` directory
 
+## Why a fork
+
+To update to the dependencies to the latest version, add typescript support, and linting/formatting.
+
 -----
 
 ## Installation
