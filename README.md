@@ -44,15 +44,15 @@ package.json
 /libs
 /packages
   /sample-package
-    index.js
+    index.ts
     package.json
 /services
   /service1
-    handler.js
+    handler.ts
     package.json
     serverless.yml
   /service2
-    handler.js
+    handler.ts
     package.json
     serverless.yml
 ```
@@ -93,7 +93,7 @@ yarn add some-npm-package
 Run a function locally.
 
 ```bash
-serverless invoke local -f get
+(npx) serverless invoke local -f get
 ```
 
 Run tests in a service.
