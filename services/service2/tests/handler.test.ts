@@ -10,5 +10,5 @@ test('main', async () => {
   ) as APIGatewayProxyResult
 
   expect(response.statusCode).toEqual(200);
-  expect(response.body).toBe("Hello World! Via sample package and library.");
+  expect(response.body).toBe("Hello World! Via service2.");
 });
