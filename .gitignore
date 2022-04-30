@@ -7,3 +7,6 @@ jspm_packages
 .webpack
 
 .*.sw*
+
+# build output
+dist
