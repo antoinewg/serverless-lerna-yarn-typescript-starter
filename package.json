@@ -1,5 +1,5 @@
 {
-  "name": "serverless-lerna-yarn-starter",
+  "name": "serverless-lerna-yarn-typescript-starter",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
